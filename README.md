@@ -7,8 +7,8 @@ The main goal of this initiative was to find a way to visualize the different Da
 The end product of this initiative is a Jupiter Notebook that allows the user to interact with the Mitre Att&ck Framework (specifically with Data-Sources and Data-Components). The notebook allows the user to generate csv files and navigator layer files (json) that can be used to visualize the desired information.
 
 ## Considerations
-1. This code uses libraries from a public repo "https://github.com/Cyb3rPandaH/attack-datasources" developed by Jose Rodriguez (@Cyb3rPandaH). This libraries allow us to interact with up-to-date ATT&CK content available in STIX format via public TAXII server.
-2. This code uses libraries from a public repo "https://github.com/mitre-attack/mitreattack-python/tree/master/mitreattack/navlayers" developed by Mitre. This libraries allow us to create navigator layer files (json) with the desired information.
+1. This code uses libraries from a public repo https://github.com/Cyb3rPandaH/attack-datasources developed by Jose Rodriguez (@Cyb3rPandaH). This libraries allow us to interact with up-to-date ATT&CK content available in STIX format via public TAXII server.
+2. This code uses libraries from a public repo https://github.com/mitre-attack/mitreattack-python/tree/master/mitreattack/navlayers developed by Mitre. This libraries allow us to create navigator layer files (json) with the desired information.
 3. Att&ck navigator version 4.2 was used as a parameter when creating Navigator Layers 
 4. Att&ck Framework version 9.1 was used as a parameter when creating Navigator Layers
 
@@ -26,6 +26,8 @@ This notebook task does three things:
 3. Sets up the two below variables:
 - data_type - Change this value to select between "data_source" of "data_component"
 - data_type_value - Change this value to select the specific "Data Source" or "Data Component"
+
+<img src="docs/images/variables.jpg" width=800>
 
 ### Getting the Attack Data Frame
 This notebook task does two things:
@@ -52,13 +54,13 @@ This notebook task does two things:
 
 
 ### Creating a Customized Navigator Layer (for a Specific Data Type Value)
-This notebook task creates a Navigator Layer of all available techniques per selected Data Type (Data Sources or Data Components) - Specific Value
+This notebook task creates a Navigator Layer of all available techniques per selected Data Type (Data Sources or Data Components) - Specific Value:
 
 <img src="docs/images/navigator_layer_specific.jpg" width=800>
 
 
 ### Creating a Combined Navigator Layer by Data Type (Data Source or Data Component)
-This notebook task creates a Combined Navigator Layer by Data Type (Data Source or Data Component)
+This notebook task creates a Combined Navigator Layer by Data Type (Data Source or Data Component):
 
 <img src="docs/images/navigator_layer_combined.jpg" width=800>
 
