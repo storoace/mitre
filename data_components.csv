@@ -1,0 +1,110 @@
+,index,data_component
+0,Command Execution,256
+1,Process Creation,207
+2,File Modification,99
+3,Network Traffic Content,96
+4,File Creation,88
+5,Network Traffic Flow,82
+6,OS API Execution,78
+7,Network Connection Creation,58
+8,Windows Registry Key Modification,58
+9,Application Log Content,55
+10,Module Load,50
+11,File Access,46
+12,File Metadata,37
+13,Logon Session Creation,32
+14,Script Execution,26
+15,Response Content,22
+16,User Account Authentication,20
+17,Process Access,18
+18,Windows Registry Key Creation,17
+19,Host Status,15
+20,Service Creation,15
+21,Active Directory Object Modification,13
+22,Service Metadata,12
+23,Process Metadata,11
+24,Driver Load,10
+25,File Deletion,10
+26,Logon Session Metadata,9
+27,Firmware Modification,9
+28,Process Modification,9
+29,Scheduled Job Creation,8
+30,User Account Metadata,8
+31,Active Directory Credential Request,7
+32,Windows Registry Key Access,7
+33,Malware Metadata,7
+34,User Account Creation,6
+35,User Account Modification,6
+36,Container Creation,6
+37,Web Credential Usage,6
+38,Drive Modification,6
+39,Response Metadata,6
+40,Instance Creation,5
+41,Network Share Access,5
+42,Drive Access,5
+43,Passive DNS,5
+44,Active DNS,5
+45,Service Modification,5
+46,Social Media,4
+47,Drive Creation,4
+48,Windows Registry Key Deletion,4
+49,Domain Registration,4
+50,Malware Content,4
+51,Active Directory Object Creation,4
+52,Image Creation,4
+53,Instance Start,4
+54,Process Termination,3
+55,Instance Metadata,3
+56,Container Start,3
+57,Snapshot Creation,3
+58,Instance Deletion,3
+59,Active Directory Object Access,3
+60,Firewall Rule Modification,3
+61,Firewall Disable,3
+62,Web Credential Creation,3
+63,Group Modification,2
+64,Snapshot Deletion,2
+65,Cloud Service Enumeration,2
+66,Cloud Storage Modification,2
+67,Image Metadata,2
+68,Scheduled Job Metadata,2
+69,Volume Deletion,2
+70,Scheduled Job Modification,2
+71,Cloud Storage Access,2
+72,Kernel Module Load,2
+73,Snapshot Modification,2
+74,Driver Metadata,2
+75,WMI Creation,2
+76,Cloud Storage Enumeration,2
+77,Group Enumeration,2
+78,Group Metadata,2
+79,Firewall Enumeration,2
+80,Certificate Registration,2
+81,Instance Stop,2
+82,Cloud Service Disable,2
+83,Cloud Service Modification,2
+84,Active Directory Object Deletion,2
+85,Firewall Metadata,2
+86,Instance Modification,2
+87,Cloud Storage Metadata,2
+88,Pod Metadata,2
+89,Pod Creation,1
+90,Instance Enumeration,1
+91,Image Deletion,1
+92,Container Metadata,1
+93,Cloud Service Metadata,1
+94,Cloud Storage Creation,1
+95,Container Enumeration,1
+96,Cluster Metadata,1
+97,Volume Modification,1
+98,Volume Creation,1
+99,Snapshot Metadata,1
+100,Pod Modification,1
+101,Image Modification,1
+102,User Account Deletion,1
+103,Snapshot Enumeration,1
+104,Pod Enumeration,1
+105,Volume Metadata,1
+106,Volume Enumeration,1
+107,Named Pipe Metadata,1
+108,Cloud Storage Deletion,1

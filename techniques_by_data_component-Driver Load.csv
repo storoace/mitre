@@ -1,0 +1,11 @@
+,technique_id,x_mitre_is_subtechnique,technique,tactic,platform,data_source,data_component
+158,T1547.012,True,Print Processors,"['persistence', 'privilege-escalation']",['Windows'],Driver,Driver Load
+674,T1561.002,True,Disk Structure Wipe,['impact'],"['Linux', 'macOS', 'Windows']",Driver,Driver Load
+679,T1561.001,True,Disk Content Wipe,['impact'],"['Linux', 'macOS', 'Windows']",Driver,Driver Load
+684,T1561,False,Disk Wipe,['impact'],"['Linux', 'macOS', 'Windows']",Driver,Driver Load
+797,T1056.001,True,Keylogging,"['collection', 'credential-access']","['Windows', 'macOS', 'Linux', 'Network']",Driver,Driver Load
+986,T1547.008,True,LSASS Driver,"['persistence', 'privilege-escalation']",['Windows'],Driver,Driver Load
+1113,T1547,False,Boot or Logon Autostart Execution,"['persistence', 'privilege-escalation']","['Linux', 'macOS', 'Windows']",Driver,Driver Load
+1532,T1111,False,Two-Factor Authentication Interception,['credential-access'],"['Linux', 'Windows', 'macOS']",Driver,Driver Load
+1607,T1068,False,Exploitation for Privilege Escalation,['privilege-escalation'],"['Linux', 'macOS', 'Windows', 'Containers']",Driver,Driver Load
+1619,T1056,False,Input Capture,"['collection', 'credential-access']","['Linux', 'macOS', 'Windows', 'Network']",Driver,Driver Load
